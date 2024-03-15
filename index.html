@@ -6,6 +6,7 @@
     <title>Compra una thermomix</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
 </head>
 <body>
     <div class="container-fluid flex header  px-2 justify-center items-center md:sticky md:top-0 bg-white">
@@ -20,8 +21,8 @@
                 <a href=""><span class="text-2xl">Repuestos</span></a>
             </nav>
             <div class="login md:gap-10 gap-2 md:px-5 md:mr-10 lg:mx-12 hidden md:flex">
-                <button class="rounded-full border border-green-400 py-2 px-5 hover:bg-green-400 duration-100 hover:text-white">Login</button>
-                <button class="rounded-full border border-green-400 py-2 px-5 hover:bg-green-400 duration-100 hover:text-white">Register</button>
+                <button class="rounded-full border border-green-400 py-2 px-5 hover:bg-green-400 duration-100 hover:text-white" id="loginButton">Login</button>
+                <button class="rounded-full border border-green-400 py-2 px-5 hover:bg-green-400 duration-100 hover:text-white" id="registerButton">Register</button>
             </div>
             
             
@@ -30,7 +31,7 @@
              <h1 class="text-white text-5xl text-center">Compra tu Thermomix Hans, que yo no la quiero pagar</h1>   
     </div>
     
-    <div class="container mx-auto my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-5">
+    <div class="container products-container mx-auto my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-5">
         
             <div class="col bg-green-400 p-5">H</div>
             <div class="col bg-green-400">O</div>
@@ -42,5 +43,6 @@
         </div>
     </div>
 
+    <div class="absolute hidden bg-green-400 p-5  flex" id="modalLogin"> Hola</div>
 </body>
 </html>
