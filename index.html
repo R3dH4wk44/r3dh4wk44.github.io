@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container-fluid flex header  w-full px-12 justify-between items-center sticky top-0 bg-white">
+    <div class="container-fluid flex header  w-full px-12 justify-between items-center sticky top-0 bg-white  sm:flex-row cs:min-h-max ">
         <div class="logo p-5">
-            <img src="src/img/logo_thermomix.webp" class="w-40 h-auto" alt="Logo thermomix" />
+            <img src="src/img/logo_thermomix.webp" class="min-[0px]:w-30  min-[0px]:h-full sm:w-40 sm:h-auto" alt="Logo thermomix" />
         </div>
         
-            <nav class="flex gap-10 justify-self-start ">
+            <nav class="lg:flex gap-10 justify-self-start lg:visible md:invisible sm:invisible min-[0px]:invisible">
                 <a href=""><span class="text-2xl">Thermomix</span></a>
                 <a href=""><span class="text-2xl">Accesorios</span></a>
                 <a href=""><span class="text-2xl">Libros de Cocina</span></a>
@@ -27,7 +27,7 @@
             
     </div>
     <div class="hero bg-gradient-to-r from-purple-500 to-pink-50 flex justify-center items-center">
-             <h1 class="text-white text-5xl">Compra tu Thermomix Hans, que yo no la quiero pagar</h1>   
+             <h1 class="text-white text-5xl text-center">Compra tu Thermomix Hans, que yo no la quiero pagar</h1>   
     </div>
     <div class="container h-96">a</div>
 </body>
