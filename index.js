@@ -9,6 +9,29 @@ window.onload = () => {
 
      buttons.forEach(button => {
         button.addEventListener('click',noAprendido);
-        console.log(button);
+        
      });
-}
+
+
+     function fetchJSON(){
+        
+        fetch("./src/json/productos.json")
+            .then((res) => {
+                if(!res.ok){
+                    throw new Error (` Error HTTP! Estatus: ${res.status}`);
+                }
+                return res.json();
+            })
+            .then((data) => {
+                var productosJSON = JSON.parse(data);
+                console.log(data);
+             })
+             .catch((error) => 
+                       console.error("Unable to fetch data:", error));
+        }
+
+        fetchJSON();
+     }
+     
+
+

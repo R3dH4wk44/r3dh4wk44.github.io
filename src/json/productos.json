@@ -1,0 +1,44 @@
+[
+    {
+        "titulo": "Thermomix TM6",
+        "estrellas": "4,9",
+        "valoraciones":"(413 reviews)",
+        "precio":"1,499",
+        "imagen":"src/img/products/thermomix_TM6.webp",
+        "descripcion": "Thermomix ® TM6 es un robot de cocina multifuncional de la más alta calidad, diseñado para ofrecerte inspiración y un extra de creatividad con cada plato."
+
+    },
+    {
+        "titulo": "Libro Mítico de thermomix",
+        "estrellas": "5,0",
+        "valoraciones":"(99999+ reviews)",
+        "precio":"45,00",
+        "imagen":"src/img/products/libro thermomix.jpg",
+        "descripcion": "Platos y dulces tradicionales, otros con un toque especial y renovado o recetas perfectas para regalar."
+
+    },
+    {
+        "titulo": "Bol isotermico",
+        "estrellas": "3,7",
+        "valoraciones":"(203 reviews)",
+        "precio":"49,90",
+        "imagen":"src/img/products/es_thermomix_bol-isotermico-2l_1x1.webp",
+        "descripcion": ""
+    },
+    {
+        "titulo": "Cubrecuchillas y pelador",
+        "estrellas": "4,7",
+        "valoraciones":"(478 reviews)",
+        "precio":"35,00 ",
+        "imagen":"src/img/products/cubrecuchillas.webp",
+        "descripcion": ""
+    },
+    {
+        "titulo": "Libro de cocina - Repostería",
+        "estrellas": "4,5",
+        "valoraciones":"(876 reviews)",
+        "precio":"28,00 ",
+        "imagen":"src/img/products/libro-reposteria_1x1.webp",
+        "descripcion": ""
+    }
+]
