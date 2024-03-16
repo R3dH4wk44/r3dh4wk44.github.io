@@ -23,7 +23,7 @@ window.onload = () => {
                 return res.json();
             })
             .then((data) => {
-                var productosJSON = JSON.parse(data);
+                
                 console.log(data);
              })
              .catch((error) => {
