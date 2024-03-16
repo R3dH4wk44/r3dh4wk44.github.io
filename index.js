@@ -27,8 +27,9 @@ window.onload = () => {
                 console.log(data);
              })
              .catch((error) => {
-                       console.error("Unable to fetch data:", error));
-             }
+                       console.error("Unable to fetch data:", error)
+             });
+             
         }
 
         fetchJSON();
