@@ -23,11 +23,11 @@ window.onload = () => {
                 return res.json();
             })
             .then((data) => {
-                pintarProductos(data);
+                var productosJSON = JSON.parse(data);
                 console.log(data);
              })
-             .catch((error) => {
-                       console.error("Unable to fetch data:", error)});
+             .catch((error) => 
+                       console.error("Unable to fetch data:", error));
         }
 
 
