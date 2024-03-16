@@ -26,8 +26,9 @@ window.onload = () => {
                 var productosJSON = JSON.parse(data);
                 console.log(data);
              })
-             .catch((error) => 
+             .catch((error) => {
                        console.error("Unable to fetch data:", error));
+             }
         }
 
         fetchJSON();
