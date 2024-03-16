@@ -38,7 +38,8 @@ window.onload = () => {
             let cadena = "";
 
             data.forEach(producto => {
-                cadena += `<div class=" productGrid col bg-slate-100 mx-10 md:mx-0 shadow-md rounded-lg flex flex-col overflow-hidden" id="gridProductos">
+                cadena += `
+                <div class=" productGrid col bg-slate-100 mx-10 md:mx-0 shadow-md rounded-lg flex flex-col overflow-hidden" id="gridProductos">
                 <div class="productImg rounded-full"><img src="${producto.imagen}" class="w-full h-48 object-cover" alt=""></div>
                 <div class="titile py-5 px-2">
                     <span class="text-xl font-bold">${producto.titulo}</span>
@@ -51,9 +52,10 @@ window.onload = () => {
                     <span class="font-bold">${producto.precio} <b class="font-extrabold">€</b></span>
                     <button class="rounded-full bg-green-500 buttonChart px-4 py-2 mx-10"><i class="fa-solid fa-cart-shopping"></i></button>
                 </div>
-            </div>`
+            </div>
+            `
             });
 
-            padre.innerHTML += cadena;
+            padre.innerHTML = cadena;
         }
      }
